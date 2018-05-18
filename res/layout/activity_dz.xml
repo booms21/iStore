@@ -1,0 +1,259 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:background="#f2f2f2"
+    tools:context="${relativePackage}.${activityClass}" >
+
+   <include layout="@layout/layout_nm"
+    android:id="@+id/include"></include>
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/include"
+        android:background="#ffffff"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/lxfs"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="5dp"
+                android:gravity="left|top"
+                android:text="周先生"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="180****8173" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lxfs"
+            android:gravity="left|center" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_marginLeft="10dp"
+                android:gravity="left|center"
+                android:src="@drawable/zb" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/linearLayout1"
+            android:layout_marginLeft="7dp"
+            android:layout_toRightOf="@+id/linearLayout1"
+            android:text="广西北海市银海区银滩镇南珠大道桂林电子科技大学北海校区"
+            android:textSize="10sp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/relativeLayout"
+        android:background="#ffffff"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/lxfs1"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="5dp"
+                android:gravity="left|top"
+                android:text="周先生"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="180****8173" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lxfs1"
+            android:gravity="left|center" >
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_marginLeft="10dp"
+                android:gravity="left|center"
+                android:src="@drawable/zb" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/linearLayout2"
+            android:layout_marginLeft="7dp"
+            android:layout_toRightOf="@+id/linearLayout2"
+            android:text="广西北海市银海区银滩镇南珠大道桂林电子科技大学北海校区"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/relativeLayout1"
+        android:background="#ffffff"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/lxfs2"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="5dp"
+                android:gravity="left|top"
+                android:text="周先生"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="180****8173" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lxfs2"
+            android:gravity="left|center" >
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_marginLeft="10dp"
+                android:gravity="left|center"
+                android:src="@drawable/zb" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/linearLayout3"
+            android:layout_marginLeft="7dp"
+            android:layout_toRightOf="@+id/linearLayout3"
+            android:text="广西北海市银海区银滩镇南珠大道桂林电子科技大学北海校区"
+            android:textSize="10sp" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/relativeLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/relativeLayout1"
+        android:background="#ffffff"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/lxfs3"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="5dp"
+                android:gravity="left|top"
+                android:text="周先生"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="180****8173" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lxfs3"
+            android:gravity="left|center" >
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_marginLeft="10dp"
+                android:gravity="left|center"
+                android:src="@drawable/zb" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/linearLayout4"
+            android:layout_marginLeft="7dp"
+            android:layout_toRightOf="@+id/linearLayout4"
+            android:text="广西北海市银海区银滩镇南珠大道桂林电子科技大学北海校区"
+            android:textSize="10sp" />
+    </RelativeLayout>
+</RelativeLayout>

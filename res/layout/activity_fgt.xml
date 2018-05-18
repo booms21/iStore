@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context="com.adsld.istore.FgtActivity" >
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+       
+        />
+
+    <RadioGroup
+        android:id="@+id/rg_main"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="#e1e1e1"
+        android:orientation="horizontal"
+  android:gravity="center_vertical"
+        
+         >
+
+        <RadioButton
+            android:id="@+id/rb_home"
+            style="@style/MainButtonStyle"
+            android:drawableTop="@drawable/home_button_selector"
+            android:text="探索" />
+
+        <RadioButton
+            android:id="@+id/rb_buy"
+            style="@style/MainButtonStyle"
+            android:drawableTop="@drawable/buy_button_selector"
+            android:text="选购" />
+
+        <RadioButton
+            android:id="@+id/rb_bag"
+            style="@style/MainButtonStyle"
+            android:drawableTop="@drawable/bag_button_selector"
+            android:text="购物袋" />
+
+        <RadioButton
+            android:id="@+id/rb_ant"
+            style="@style/MainButtonStyle"
+            android:drawableTop="@drawable/user_button_selector"
+            android:text="账户" />
+    </RadioGroup>
+
+</LinearLayout>

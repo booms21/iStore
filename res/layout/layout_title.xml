@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#E6E6E6"
+    android:orientation="vertical">
+
+
+
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="探索"
+        android:textColor="#f000"
+        android:textSize="16dp" />
+
+    <ImageView
+        android:id="@+id/search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/fdj" />
+
+</RelativeLayout>

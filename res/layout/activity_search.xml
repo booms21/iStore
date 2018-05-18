@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <EditText
+            android:id="@+id/keyword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:singleLine="true"
+            android:imeOptions="actionDone"
+            android:hint="iPhone" />
+
+        <Button
+            android:id="@+id/clear_password"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/clear"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/cancel"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/search_item"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:divider="#cdcdcd" />
+
+
+</LinearLayout>

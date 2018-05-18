@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F8F8"
+    tools:context="com.adsld.istore.fgt.AccountFragment"
+    >
+
+<include layout="@layout/layout_nm"
+    android:id="@+id/include"></include>
+
+    <LinearLayout
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/include"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:id="@+id/linearLayout">
+
+        <TextView
+            android:id="@+id/account_name"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="未登录"
+            android:gravity="bottom|center"
+            android:textSize="20dp"
+            android:textColor="#000000"
+     
+            />
+
+        <TextView
+            android:id="@+id/account_mail"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+         
+            android:gravity="center|top"
+            android:textColor="#386cf1"
+            />
+
+        <TextView
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#979797"
+            android:text="" />
+
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/linearLayout"
+        android:id="@+id/tableLayout"
+        android:background="#fff"
+        >
+
+        <TableRow
+            
+                android:id="@+id/zffs"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:gravity="center"
+            android:padding="10dp"
+            
+            >
+
+            <ImageView
+                android:id="@+id/img_balance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pay_way" />
+
+            <TextView
+                android:id="@+id/tx_balance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+   				android:paddingLeft="5dp"
+                android:text="我的支付方式"
+                android:textColor="#386cf1"/>
+
+        </TableRow>
+
+
+
+        <TextView
+            android:id="@+id/line1"
+            android:layout_width="wrap_content"
+            android:layout_height="0.5px"
+            android:background="#cacaca"
+            android:text=""
+
+            />
+
+
+        <TableRow
+             android:id="@+id/shfs"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:gravity="center"
+            android:padding="10dp"
+            >
+
+            <ImageView
+                android:id="@+id/img_sub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               android:src="@drawable/address" />
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:id="@+id/tv_sub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="主要送货方式"
+                
+                android:textColor="#386cf1"/>
+        </TableRow>
+
+
+    </TableLayout>
+  <Button
+        android:id="@+id/wddd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="我的订单 "
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/tableLayout"
+        android:layout_centerHorizontal="true"
+        android:background="#fff"
+        android:gravity="left|center"
+        android:padding="10dp"
+       
+      
+        />
+    <Button
+        android:id="@+id/grsc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="我的个人收藏 "
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/wddd"
+        android:layout_centerHorizontal="true"
+        android:background="#fff"
+        android:gravity="left|center"
+        android:padding="10dp"
+       
+      
+        />
+
+    <Button
+        android:id="@+id/wdwl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="我的物流"
+        android:layout_below="@+id/grsc"
+        android:layout_alignStart="@+id/wddd"
+         android:layout_alignLeft="@+id/wddd"
+        android:background="#fff"
+        android:gravity="left|center"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/wlxx"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/wdwl"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#fff"
+        android:gravity="left"
+        android:padding="10dp"
+        android:text="物流信息：桂电东区 邮政  17    版权所有    istore 17组"
+        android:textColor="#386cf1" />
+
+       <Button
+        android:id="@+id/tcdl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="退出登录 "
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/wlxx"
+        android:layout_centerHorizontal="true"
+        android:background="#fff"
+        android:gravity="left|center"
+        android:padding="10dp"
+       android:visibility="gone"
+      
+        />
+
+
+</RelativeLayout>

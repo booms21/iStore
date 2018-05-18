@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">iStore</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">iStore</string>
+    <string name="title_activity_home">MainActivity</string>
+    <string name="title_activity_select">SelectActivity</string>
+    <string name="title_activity_goods">GoodsActivity</string>
+    <string name="title_activity_gwcmain">GWCMainActivity</string>
+    <string name="title_activity_pay">PayActivity</string>
+
+</resources>

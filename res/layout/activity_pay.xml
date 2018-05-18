@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"
+    tools:context="com.example.kcsj.MainActivity"
+android:id="@+id/ddd"
+>
+
+   <include layout="@layout/layout_nm"
+    android:id="@+id/include"></include>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/include"
+        android:background="#ffffff"
+        android:gravity="center"
+        
+        android:orientation="horizontal" >
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="需要支付:"
+                    android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/tv_title2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="21000.00元"
+            android:textColor="#f00000"
+            android:textSize="15dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/linearLayout1"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp" >
+        
+                <TextView
+            android:id="@+id/tv_title3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="余额支付"
+            android:textColor="#f00000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tv_title4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+     
+            android:textColor="#000000"
+            android:textSize="12dp" />
+        
+    </LinearLayout>
+
+  
+  <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ff292c"
+        android:layout_alignParentBottom ="true"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+      <TextView
+          android:id="@+id/tv_title6"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+        
+          android:textColor="#ffffff"
+          android:textSize="20dp" />
+      
+    </LinearLayout>
+</RelativeLayout>
+
